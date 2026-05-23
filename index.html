@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Be My Valentine 2026</title>
+    <title> Will you be my boyfriend? </title>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght=300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -236,11 +236,12 @@
 
     <script>
         const photos = [
-            { src: "photo1.jpg", caption: "1. กระทงของเราสองคน💞" },
-            { src: "photo2.jpg", caption: "2. รอยยิ้มของเธอคือความสุขของเค้านะ🥰" },
-            { src: "photo3.jpg", caption: "3. เธอชอบรูปนี้😍" },
-            { src: "photo4.jpg", caption: "4. หวานใจของเค้าน่ารักที่สุดดด💗" },
-            { src: "photo5.jpg", caption: "5. รูปนี้เธอน่ารักมากกกก💞" }
+            { src: "photo1.jpg", caption: "รูปนี้คือรูปแรกที่เธอโทรหาเค้า\nเค้ารู้สึกดีกับเธอ\nตั้งแต่ที่เธอโทรมาอยู่กับเค้า" },
+            { src: "photo2.jpg", caption: "นั่นแหนะวันเกิดเค้า\nเธอก็มีเค้กน่ารักเนอะๆๆๆ" },
+            { src: "photo3.jpg", caption: "อันนี้ตอนเธอเล่นฟีฟายครั้งแรก\nเธอไม่ชอบเล่นแต่เธอ\nก็โหลดมาเล่นกับเค้า\nเค้าชอบมาก" },
+            { src: "photo4.jpg", caption: "เค้าชอบตอนดูหนัง\nหรือตอนดูการ์ตูน\nกับเธอก่อนนอน" },
+            { src: "photo5.jpg", caption: "อันนี้คือภาพแรก\nที่เธอส่งให้เค้า\nเค้าก็ชอบบบ
+" }
         ];
 
         let audioPlaying = false;
@@ -310,7 +311,7 @@
             const c = document.getElementById('scratchCanvas'); const ctx = c.getContext('2d');
             ctx.fillStyle = '#ffacc5'; ctx.fillRect(0,0,300,300);
             ctx.fillStyle = '#fff'; ctx.font = 'bold 24px Kanit'; ctx.textAlign = 'center';
-            ctx.fillText('ลองขูดดูสิ', 150, 150);
+            ctx.fillText('เป็นแฟนกันมั้ย\nถ้าตกลงก็ลองขูดดูสิ', 150, 150);
             
             let isDrawing = false;
             function scratch(x,y) {
